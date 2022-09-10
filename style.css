@@ -1,0 +1,96 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+@font-face {
+  font-family: "subjectivity.serif-superslanted";
+  src: url("./subjectivity.serif-superslanted.otf");
+}
+ body{
+  background-color: black;
+ }
+
+ .navigation{
+  height:calc(100% - 100px);
+  width: calc(100% - 500px);
+  margin: 0 auto;
+  display: flex;
+ align-items: center;
+ justify-content: space-between;
+ font-style: oblique;
+ }
+ .Links{
+ }
+ .Link{
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: x-large;
+  padding: 0 30px;
+ }
+ .contact-us{
+  border: none;
+  font-size: x-large;
+  background-color: #9cfceb;
+  padding: 10px;
+  border-radius: 2px;
+  box-shadow: 0 0 10px rgb(2, 197, 197);
+ }
+ .body{
+    height: calc(100vh - 100px);
+    width: calc(100% - 500px);
+    margin: 0 auto;
+    display: flex;  
+    background-color: rgb(11, 11, 11);
+
+ }
+ .image,.about.text{
+  height: 100%;
+  width: 100%;
+  margin-left: 10px;
+
+ }
+ .image{
+  margin: 0px;
+  background-color: rgba(16, 20, 20, 0.567);
+  align-items: center;
+ }
+ .about_text{
+  font-family: "subjectivity.serif-superslanted";
+  font-style: italic;
+  color: white;
+  margin: 40px;
+  padding: 10px 0;
+ }
+ .about_text h3{
+  font-family: "subjectivity.serif-superslanted";
+  font-style: italic;
+  color: rgb(245, 25, 161);
+  padding: 10px 0;
+  letter-spacing: 1mm;
+
+ }
+ .about_text h2{
+  font-family: "subjectivity.serif-superslanted";
+  font-style: italic;
+  color: rgba(244, 0, 232, 0.784);
+  padding: 10px 0;
+  letter-spacing: 1mm;
+ }
+ .about_text p{
+  font-family: "subjectivity.serif-superslanted";
+  font-style: italic;
+  color: rgb(255, 234, 0);
+  padding: 10px 0;
+  word-spacing: 2px;
+  letter-spacing: 0.5mm;
+ }
+ .DOWNLOAD_CV{
+  border: none;
+  font-size: x-large;
+  background-color: #7c00f9;
+  padding: 10px 0;
+  border-radius: 2px;
+  box-shadow: 0 0 10px rgb(136, 2, 220);
+  margin: 0 10px;
+ }
